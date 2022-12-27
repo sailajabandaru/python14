@@ -1,0 +1,8 @@
+n=int(input())
+l=list(map(int,intput().slpit()))
+x=int(input())
+if x in l:
+    print('element is found')
+    print('element is found at',l.index(x))
+else:
+    print('element is not found')
